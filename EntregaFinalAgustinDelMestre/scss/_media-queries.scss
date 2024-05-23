@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+      font-family: "Oswald", sans-serif;
+    }
+  
+    .cajaLogo {
+      display: flex;
+      flex-direction: column;
+      font-family: "Oswald", sans-serif;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 80%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+  
+    nav {
+      text-align: center;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-inline-start: 0;
+    }
+  
+    .menu li {
+      list-style: none;
+    }
+  
+    .imgPrincipal img {
+      width: 100%;
+    }
+  
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    body {
+      padding: 0 4em;
+    }
+  
+    .contact-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  
+      > * {
+        padding: 2em;
+      }
+  
+      .contact-info h4,
+      .contact-info ul,
+      .contact-info p {
+        text-align: left;
+      }
+    }
+  }
+  
