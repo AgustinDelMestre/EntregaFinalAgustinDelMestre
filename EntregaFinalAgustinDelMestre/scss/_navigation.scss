@@ -1,0 +1,32 @@
+nav {
+    padding: 1rem;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    background-color: black;
+    text-align: center;
+  
+    li {
+      display: inline-block;
+      text-align: center;
+      margin: 20px;
+      padding: 10px;
+  
+      a {
+        text-decoration: none;
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        padding: 10px;
+  
+        &:hover {
+          background-color: cadetblue;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  
